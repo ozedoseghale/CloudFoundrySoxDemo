@@ -1,0 +1,11 @@
+---
+applications:
+- name: CloudFoundrySoxDemo
+  memory: 512M
+  host: CloudFoundrySoxDemo
+  domain: cfapps.io
+  env: {
+    }
+  buildpack: https://github.com/ozedoseghale/java-buildpack.git
+  services: {
+    }
